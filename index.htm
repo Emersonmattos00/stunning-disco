@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Minha Biblioteca Digital</title>
+<meta name="description" content="Minha Biblioteca Digital - Leia e crie seus próprios e-books online">
+<meta name="keywords" content="livros online, biblioteca digital, e-books, ler online">
+<meta name="author" content="Seu nome">
+<meta property="og:title" content="Minha Biblioteca Digital">
+<meta property="og:description" content="Leia e crie seus próprios e-books online">
+<meta property="og:image" content="assets/imagens/capa.png">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<header><h2>Minha Biblioteca Digital</h2></header>
+<h1>Meus Livros</h1>
+<input type="text" id="search" placeholder="Pesquisar por título ou autor...">
+<div id="loading" class="loading">Carregando livros...</div>
+<div id="livros-container" style="display:none;"></div>
+
+<!-- Botões flutuantes -->
+<div class="fab fab-fav" title="Meus Favoritos"onclick="window.location='favoritos.html'">★</div>
+<div class="fab fab-home" title="Criar/Editar Livro"onclick="window.location='editar.html'">✏️</div>
+
+<footer><p>© 2025 Minha Biblioteca Digital</p></footer>
+<script src="scripts/app.js"></script>
+</body>
+</html>
